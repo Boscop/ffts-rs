@@ -1,0 +1,19 @@
+[package]
+name = "ffts"
+version = "0.0.1"
+authors = ["Boscop"]
+
+license = "MIT/Apache-2.0"
+keywords = ["fft", "dsp", "numerics", "mathematics"]
+
+description = """
+Bindings to FFTS: the Fastest Fourier Transform in the South. This
+library aims to expose the full power of FFTS in high-performance,
+safe and idiomatic manner.
+"""
+
+repository = "https://github.com/Boscop/ffts-rs"
+documentation = "https://boscop.github.io/ffts-rs/ffts"
+
+[dependencies]
+libc = "*"
