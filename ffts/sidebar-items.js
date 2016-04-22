@@ -1,0 +1,1 @@
+initSidebarItems({"enum":[["Dir","The direction of the transform (i.e, the sign of the exponent in the transform.)"]],"struct":[["Ffts",""]]});
