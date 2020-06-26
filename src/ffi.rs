@@ -11,7 +11,7 @@ pub const FFTS_BACKWARD: c_int = 1;
 pub type FftsPlan = c_void;
 type size_t = usize;
 
-#[link(name = "ffts_static", kind = "static")]
+// #[link(name = "ffts_static", kind = "static")]
 extern "C" {
 	pub fn ffts_init_1d_real(n: size_t, sign: c_int) -> *mut FftsPlan;
 	pub fn ffts_init_2d_real(n1: size_t, n2: size_t, sign: c_int) -> *mut FftsPlan;

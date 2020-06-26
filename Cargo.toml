@@ -2,12 +2,14 @@
 name = "ffts"
 version = "0.1.0"
 authors = ["Boscop"]
+edition = "2018"
 
 license = "MIT/Apache-2.0"
 keywords = ["fft", "dsp", "numerics", "mathematics"]
 description = "Bindings to FFTS: The Fastest Fourier Transform in the South"
 repository = "https://github.com/Boscop/ffts-rs"
 
-links = "ffts_static"
-
 [dependencies]
+
+[build-dependencies]
+cmake = "0.1"
